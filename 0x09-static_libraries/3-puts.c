@@ -1,13 +1,11 @@
 #include "main.h"
-void _puts(char *str)
-#include<stdio.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * _isdigit - checks for a digit (0 through 9)
+ * @c: int to be checked
+ * Return: 1 if c is a digit, 0 otherwise
  */
-int main(void)
+int _isdigit(int c)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	return (c >= '0' && c <= '9');
 }
